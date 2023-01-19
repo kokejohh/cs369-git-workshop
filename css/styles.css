@@ -5,8 +5,33 @@
 .profile-section {
 	display: flex;
 	gap: 50px;
+	margin: 10px;
+	padding: 10px;
 }
 
 img.profile {
+	border: 10px solid black;
+	border-radius: 10%;
+	transition-duration: 1s;
+}
+
+img.profile:hover {
+	border: 10px solid black;
 	border-radius: 50%;
+	transition-duration: 1s;
+}
+
+.text-xl {
+	font-size: 30px;
+
+}
+
+.detail {
+	border: 10px solid black;
+	background-color: white;
+}
+
+
+.bg-gray {
+	background-color: gray;
 }
